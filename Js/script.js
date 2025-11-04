@@ -33,8 +33,10 @@ document
     if (
       inputNumberConverted === mobileNumber &&
       inputPinValueConverted === pinNumber
-    ) {
+    ) 
+    {
       window.location.href = "./home-page.html";
+
     } else {
       // console.log('wrong credentials');
       alert("Invalid Credentials");
