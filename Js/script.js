@@ -8,8 +8,8 @@ document
     console.log("button clicked");
     // console.log(event);
 
-    const mobileNumber = "01991949385";
-    const pinNumber = "9876";
+    const mobileNumber = 01818416464;
+    const pinNumber = 6521;
 
     // console.log(mobileNumber);
 
@@ -18,19 +18,19 @@ document
     const inputPin = document.getElementById("pin-number-input");
     // console.log(inputPin.value);
 
-    // const inputNumberValue = inputNumber.value;
-    // const inputPinValue = inputPin.value;
+    const inputNumberValue = inputNumber.value;
+    const inputPinValue = inputPin.value;
 
     // const inputNumberValue = document.getElementById(
     //   "mobile-number-input"
     // ).value;
     // const inputPinValue = document.getElementById("pin-number-input").value;
-    const inputNumberValue = document
-      .getElementById("mobile-number-input")
-      .value.trim();
-    const inputPinValue = document
-      .getElementById("pin-number-input")
-      .value.trim();
+    // const inputNumberValue = document
+    //   .getElementById("mobile-number-input")
+    //   .value.trim();
+    // const inputPinValue = document
+    //   .getElementById("pin-number-input")
+    //   .value.trim();
 
     const inputNumberConverted = parseInt(inputNumberValue);
     // console.log(inputNumberConverted);

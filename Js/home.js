@@ -5,6 +5,13 @@ const validPinNumber = "9876";
 
 const alltransaction = [];
 
+//logout button
+document.getElementById('btn-logout').addEventListener('click', function() {
+  window.location.href = 'index.html';  // change page to index.html
+});
+
+
+
 // reusable functions added:
 
 // functions for accessing value from input converted to INT =>
