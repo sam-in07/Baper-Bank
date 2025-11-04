@@ -20,10 +20,17 @@ document
 
     // const inputNumberValue = inputNumber.value;
     // const inputPinValue = inputPin.value;
-    const inputNumberValue = document.getElementById(
-      "mobile-number-input"
-    ).value;
-    const inputPinValue = document.getElementById("pin-number-input").value;
+
+    // const inputNumberValue = document.getElementById(
+    //   "mobile-number-input"
+    // ).value;
+    // const inputPinValue = document.getElementById("pin-number-input").value;
+    const inputNumberValue = document
+      .getElementById("mobile-number-input")
+      .value.trim();
+    const inputPinValue = document
+      .getElementById("pin-number-input")
+      .value.trim();
 
     const inputNumberConverted = parseInt(inputNumberValue);
     // console.log(inputNumberConverted);
@@ -33,10 +40,8 @@ document
     if (
       inputNumberConverted === mobileNumber &&
       inputPinValueConverted === pinNumber
-    ) 
-    {
+    ) {
       window.location.href = "./home-page.html";
-
     } else {
       // console.log('wrong credentials');
       alert("Invalid Credentials");
